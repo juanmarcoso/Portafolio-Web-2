@@ -27,6 +27,6 @@ a {
   #app {
     display: flex; /* Aplica un diseño flexible al contenedor */
     flex-direction: column; /* Organiza los elementos en una columna */
-    font-size: 80%; /* Limita el ancho del contenedor al 80% de la pantalla en dispositivos grandes */
+    width: 80%; /* Limita el ancho del contenedor al 80% de la pantalla en dispositivos grandes */
   }
 }
