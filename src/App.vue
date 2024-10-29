@@ -5,6 +5,7 @@ import EducacionComponente from './components/EducacionComponente.vue';
 import ExperienciaComponente from './components/ExperienciaComponente.vue';
 import ProyectoComponente from './components/ProyectoComponente.vue';
 import HabilidadesComponente from './components/HabilidadesComponente.vue';
+import InteresesComponente from './components/InteresesComponente.vue';
 </script>
 
 <template>
@@ -37,10 +38,24 @@ import HabilidadesComponente from './components/HabilidadesComponente.vue';
     </section>
     <section id="intereses">
       <h2> Intereses </h2>
+      <InteresesComponente />
     </section>
   </main>
+  <footer>
+    <a href="#top">Inicio</a>
+    <p>@ 2024 Juan Marcos Orellana - Portafolio Web</p>
+  </footer>
 </template>
 
 <style scoped>
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+
 </style>
  
