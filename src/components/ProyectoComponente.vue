@@ -1,6 +1,11 @@
 <script setup>
-// Este componente muestra una galería de proyectos con información detallada sobre cada uno.
 
+import proyecto1 from '/src/assets/restaurant.png';
+import proyecto2 from '/src/assets/e-learning.png';
+import proyecto3 from '/src/assets/blog.png';
+import proyecto4 from '/src/assets/e-learning.png';
+
+// Este componente muestra una galería de proyectos con información detallada sobre cada uno.
 // Importamos 'ref' de Vue para crear referencias reactivas.
 import { ref } from 'vue';
 
@@ -11,7 +16,7 @@ var misProyectos = ref([]);
 misProyectos.value = [
     {
         id: 1,
-        src: "/src/assets/restaurant.png",
+        src: proyecto1,
         titulo: "Aplicación de Reservas para Restaurantes (2023)",
         descripcion: "Creé una aplicación móvil con Flutter que permite a los usuarios reservar mesas en restaurantes locales.",
         proyectoLink: "https://www.google.com.ar",
@@ -19,7 +24,7 @@ misProyectos.value = [
     },
     {
         id: 2,
-        src: "/src/assets/e-learning.png",
+        src: proyecto2,
         titulo: "Plataforma de E-Learning (2023)",
         descripcion: "Diseñé y desarrollé una plataforma de educación en línea utilizando Django y React.",
         proyectoLink: "https://www.google.com.ar",
@@ -27,7 +32,7 @@ misProyectos.value = [
     },
     {
         id: 3,
-        src: "/src/assets/blog.png",
+        src: proyecto3,
         titulo: "Blog personal con CMS (2022)",
         descripcion: "Desarrollé un blog personal con un sistema de gestión de contenidos (CMS) personalizado en WordPress.",
         proyectoLink: "https://www.google.com.ar",
@@ -35,7 +40,7 @@ misProyectos.value = [
     },
     {
         id: 4,
-        src: "/src/assets/e-learning.png",
+        src: proyecto4,
         titulo: "Plataforma de E-Learning (2023)",
         descripcion: "Diseñe y desarrolle una pa}lataforma de educacion en linea utilizando Django y React. Con diferentes funcionalidades",
         proyectoLink: "https://www.google.com.ar",
