@@ -1,6 +1,6 @@
 <script setup>
 
-const title = 'Cerdito Pato';
+const title = 'Juan Orellana';
 const descripcion = 'Técnico Universitario en Programación - UTN';
 const residencia = 'Jachal, San Juan, Argentina';
 const presentacion = 'Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles.';
